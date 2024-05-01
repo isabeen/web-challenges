@@ -1,5 +1,4 @@
 # Web Challenges
 
-In this repository you will share your challenges.
+This repository contains all the web challenges completed by me as part of the <b>Full Stack Web Development course<b>.
 
-Please refer to the instructions in your course repository to know more about the workflow.

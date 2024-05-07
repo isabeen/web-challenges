@@ -1,0 +1,12 @@
+h2 {
+  background-color: #663499;
+  color: white;
+  display: inline;
+  padding: 8px;
+  position: relative;
+  top: 40px;
+}
+
+ul {
+  list-style: none;
+}

@@ -1,6 +1,6 @@
-h1 {
-  background-color: #ffd700;
-  color: #663499;
+header {
+  background-color: var(--header-bg);
+  color: var(--header-text);
   display: inline;
   padding: 20px;
   position: relative;

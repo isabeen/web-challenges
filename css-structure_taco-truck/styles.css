@@ -27,3 +27,12 @@ body {
   font-family: system-ui;
   background: var(--body-bg);
 }
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  display: contents;
+}

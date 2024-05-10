@@ -10,7 +10,7 @@
 
 .main-title {
   color: var(--main-text);
-  background-color: var(--main-title-bg);
+  background: var(--main-title-bg);
   margin: 0 0 20px 0;
   padding: 12px;
   width: fit-content;

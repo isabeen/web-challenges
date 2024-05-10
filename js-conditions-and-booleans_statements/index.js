@@ -17,16 +17,16 @@ if (number % 2 == 0) {
 }
 
 // Part 3: Hotdogs
-const numberOfHotdogs = 100;
+const numberOfHotdogs = 10005000;
 if (numberOfHotdogs < 5) {
   console.log("2 euro per hotdog");
-} else if (5 <= numberOfHotdogs < 100) {
+} else if (numberOfHotdogs < 100) {
   console.log("1.50 euro per hotdog");
 
   // something is wrong in this part
-} else if (100 <= numberOfHotdogs < 1000000) {
+} else if (numberOfHotdogs < 1000000) {
   console.log("1 euro per hotdog");
-} else if (1000000 <= numberOfHotdogs) {
+} else {
   console.log("0.10 euro per hotdog");
 }
 
@@ -43,11 +43,7 @@ console.log(statement);
 // Part 5: Greeting
 // something is wrong in this part
 const userName = "Archibald";
-const newName = "Sabeen";
-let greeting = "";
-if (newName == userName) {
-  greeting = "Hello " + "Coach" + "!";
-} else {
-  greeting = "Hello " + newName + "!";
-}
+const newName = "Archibald";
+const greeting =
+  "Hello" + " " + (newName === "Archibald" ? "Coach" : userName) + "!";
 console.log(greeting);

@@ -9,7 +9,7 @@ Make sure the form is reset and the First Name input is focused after submission
 > 💡 You only have to touch the [`js/index.js`](./js/index.js) file.
 
 <br>
-
+cons
 ## Bonus: Calculate and log the age-badness-sum 🤷‍♀️
 
 The formula is: `age + badness`

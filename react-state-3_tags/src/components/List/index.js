@@ -1,6 +1,6 @@
 import "./List.css";
 
-export default function List({ tags, onDeleteTag }) {
+export default function List({ tags, onRemoveTag }) {
   return (
     <>
       <h2>Your Tags:</h2>
@@ -12,7 +12,7 @@ export default function List({ tags, onDeleteTag }) {
               className="tag-list__item-button"
               type="button"
               aria-label="delete list item"
-              onClick={() => onDeleteTag?.(tag)}
+              onClick={() => onRemoveTag(tag)}
             >
               ✕
             </button>

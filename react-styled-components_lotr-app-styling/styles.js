@@ -9,7 +9,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    font-family: lora;
+    font-family: ${lora.style.fontFamily}, serif;;
   }
 
 :root {
@@ -19,7 +19,7 @@ export const GlobalStyle = createGlobalStyle`
   --color-smoke: #d4d1cd;
 
   /* Font styles */
-  --font-family: lora;
+  --font-family: ${lora.style.fontFamily}, serif;;
   /*
     use like:
     font: var(--font-body);

@@ -6,7 +6,7 @@ export default async function handler(request, response) {
   await dbConnect();
 
   // const product = products.find((product) => product.id === id);
-  const product = await Product.findById(id);
+  const product = await Product.findById(id).populate("reviews");
 
   console.log("product on the server", product);
 

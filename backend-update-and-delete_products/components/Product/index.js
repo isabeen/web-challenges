@@ -66,6 +66,7 @@ export default function Product() {
           <p>
             Price: {data.price} {data.currency}
           </p>
+          {data.reviews.length > 0 && <Comments reviews={data.reviews} />}
           <button
             onClick={() => {
               setIsEditMode(!isEditMode);

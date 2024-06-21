@@ -14,7 +14,7 @@ so that I can learn more about a specific movie before deciding to watch it <br>
 
 ## Acceptance Criteria
 
-- When a user clicks on a movie from the list, they should be navigated to the movie detail page.
+- When a user clicks on a movie card from the list, they should be navigated to the movie detail page.
 - The movie detail page should display the movie title, release date, poster image, and a short description.
 
 ## Tasks

@@ -16,6 +16,8 @@ so that I can learn more about a specific movie before deciding to watch it <br>
 
 - When a user clicks on a movie card from the list, they should be navigated to the movie detail page.
 - The movie detail page should display the movie title, release date, poster image, and a short description.
+- There is back arrow link on the movie detail page.
+- When users click the back arrow on the movie detial page, they are navigated to the home page.
 
 ## Tasks
 

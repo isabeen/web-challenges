@@ -16,7 +16,6 @@ so that I can quickly decide which movie I want to watch. <br>
 
 - The header text "Movie App" displays correctly.
 - The movie list displays a card for each movie with poster image, title and rating.
-- When a user clicks on a movie poster, the movie details page open.
 - If the movie data is not available, display the text: Sorry, we couldn't retrieve the latest movie data at the moment. Please try again later.
 
 ## Tasks
